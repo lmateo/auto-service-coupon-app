@@ -1,0 +1,260 @@
+/* == Segment == */
+.wojo.coupon.segment {
+  padding: 0;
+  border: 2px dashed #bcbcbc !important;
+  border-radius:.250em;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.wojo.ncps_title_left,
+.wojo.ncps_title_right {
+	width: 50%;
+	align-self: center;
+	-webkit-align-self: center;
+}
+.wojo.coupon #footer {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#title .wojo.visible-xs {
+    font-size: 12px;
+}
+.wojo.coupon #title img {
+    float: right;
+    /*font-size: 30px;
+    height: 40px;
+    margin-top: 1px;*/
+    height: auto;
+    max-width: 100%;
+}
+.wojo.ncps_cost_right{
+	text-align: right;
+	line-height: 1;
+}
+.wojo.ncps_coupon_info_wrap{
+	padding: 10px 0;
+}
+.wojo.coupon #title span {
+    float: left;
+    margin-top: 5px;
+    font-weight: 700;
+	/*color: whitesmoke;*/
+    text-transform: uppercase;
+}
+.wojo.coupon-img {
+    width: 94%;
+    margin-bottom: 15px;
+    padding: 0 10px 10px 10px;
+}
+
+.wojo.img-rounded {
+    border-radius: 6px;
+}
+
+.wojo.items {
+    margin: 15px 0;
+}
+.wojo.usd, 
+.wojo.cents {
+    font-size: 20px;
+    vertical-align: top !important;
+    line-height: 1.5;
+}
+
+.wojo.number {
+    font-size: 40px;
+    font-weight: 700;
+}
+sup {
+    top: -15px;
+}
+#business-info ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+#business-info ul li { 
+    display: inline;
+    text-align: center;
+}
+#business-info ul li span {
+    text-decoration: none;
+    padding: .2em 1em;
+}
+#business-info ul li span i {
+    padding-right: 5px;
+}
+.wojo.disclosure {
+    padding-top: 15px;
+    line-height: 1;
+    font-size: 11px;
+    color: #bcbcbc;
+    text-align: justify;
+    
+    
+}
+
+.wojo.ncps_disclosure_div
+{
+	width: 65%;
+	align-self: center;
+	-webkit-align-self: center;
+	text-align: justify
+}
+
+.wojo.coupon-code {
+    color: #333333;
+    font-size: 11px;
+}
+
+.wojo.exp {
+    font-size: 14px;
+    color: #f34235;	
+}
+
+.wojo.ncpsbtn {
+    display: inline-block !important;
+    padding: 6px 12px !important;
+    margin-bottom: 0 !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    line-height: 1.428571429 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    background-image: none !important;
+    border: 1px solid transparent;!important;
+    border-radius: 4px !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    -o-user-select: none !important;
+    user-select: none !important;
+}
+
+div#business-info,
+.wojo.ncps_title_wrap,
+.wojo.ncps_footer_flex {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+}
+.wojo.ncps_footer_flex {
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+}
+.wojo.ncps_storename, 
+.wojo.ncps_store_phone,
+.wojo.ncps_store_address {
+    padding: 1% 0;
+    width: 33.33%;
+    /*font-size: 1.1vw;*/
+    line-height: 1;
+}
+.wojo.ncps_store_name_wrap,
+.wojo.ncps_store_phone_wrap {
+	width: 85%;
+    border-right: 1px solid #000;
+    margin: 0 2%;    
+}
+i.fa.fa-phone,
+i.fa.fa-map-marker {
+    padding: 0 3px 0 0;
+}
+.wojo.ncps_storename,
+.wojo.ncps_store_phone {
+   /* white-space: nowrap;*/
+}
+.wojo.print,
+.wojo.contactUs,
+.wojo.scheduleService{
+    font-size: 14px;
+    float: left;
+}
+.wojo.panel-danger > .wojo.panel-heading {
+    color: #333 !important;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.wojo.panel-warning > .wojo.panel-heading {
+    color: #8a6d3b !important;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.wojo.panel-primary > .wojo.panel-heading {
+    color: #ffffff !important;
+    background-color: #428bca;
+    border-color: #428bca;
+}
+
+.wojo.panel-info > .wojo.panel-heading {
+    color: #31708f !important;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.wojo.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.wojo.panel-footer {   
+    margin-bottom: 15px !important;
+    /*background-color: #f5f5f5;*/
+    border-top: none !important; 
+    border-bottom-right-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+    
+       
+}
+.wojo.classic-pt .wojo.pt-list li:nth-child(2n) {
+    /* background-color: #2c9c86; */
+}
+ 
+.wojo.classic-pt .wojo.pt-list li {
+    list-style: none;
+    margin: 0;
+    padding: 15px 15px 10px;
+} 
+ 
+  
+.wojo.printSection {
+    display: none;
+    border: 1px dashed #000;
+    padding: 20px 25px;
+}
+.wojo.fancybox-inner>div {
+    max-width: 680px;
+}
+element.style {
+    width: 710px;
+    height: auto;
+    position: fixed;
+    top: 174px !important;
+    left: 390px;
+    opacity: 1;
+    overflow: visible;
+}
+.wojo.well-sm {
+    padding: 9px !important;
+    border-radius: 3px !important;
+}
+.wojo.well {
+    min-height: 20px !important;
+    padding: none !important; 
+    margin-bottom: none !important; 
+    background-color: white !important;
+    border: none !important; 
+    border-radius: 4px !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.10) !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.10) !important;
+}

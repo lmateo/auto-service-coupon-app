@@ -1,0 +1,992 @@
+/*============================================================                                     
+
+
+Quirk Service Coupon Style Sheet
+
+Author: Lorenzo Mateo
+
+==============================================================*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Imported Fonts
+# NCPS Specials Styling
+# Responsive NCPS Specials Styling
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Imported Fonts
+--------------------------------------------------------------*/
+/*commented out for now as the embedded fonts are now being included with the plugin*/
+/*@font-face {
+  font-family: 'Antenna-Light';
+  src: url('light.ttf'),
+  url('light.ttf')  format('truetype'),
+  url('Antenna-Light.eot') format('embedded-opentype');  
+}
+@font-face { 
+  font-family: 'Antenna-Bold';
+  src: url('bold.ttf'),  
+  url('bold.ttf')  format('truetype'), 
+  url('Antenna-Bold.eot') format('embedded-opentype');        
+}
+@font-face { 
+  font-family: 'Antenna-regular';
+  src: url('Regular.ttf'),  
+  url('Regular.ttf')  format('truetype'),
+  url('Antenna-Regular.eot') format('embedded-opentype');      
+}*/
+
+/*--------------------------------------------------------------
+# Specials Styling
+--------------------------------------------------------------*/
+
+.qncpsPage {
+    display: block;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+    font-weight:300;
+    /*font-size:1vw;*/
+    font-size: 16px;
+    line-height:1;
+    letter-spacing: -.5px;
+    width: 100%;
+}
+.NCPS {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    /*align-items: flex-start;
+    -webkit-align-items: flex-start;*/
+	margin: auto;
+	max-width: 1260px;
+}
+
+.NCPSINDV {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    /*align-items: flex-start;
+    -webkit-align-items: flex-start;*/
+	margin: auto;
+	max-width: 1260px;
+	justify-content: center;
+	zoom: 0.7;
+    -moz-transform: scale(0.7);
+}
+
+.NCPSPOPUPINDV {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    /*align-items: flex-start;
+    -webkit-align-items: flex-start;*/
+	margin: auto;
+	max-width: 700px;
+	justify-content: center;
+	zoom: 0.7;
+    -moz-transform: scale(0.7);
+}
+
+.qncpsPage div {
+	font-family: 'Antenna-Light', 'Open Sans', Helvetica;
+}
+#q_overlay {
+    background: rgba(0,0,0,.5);
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1030;
+} 
+#q_overlay_disc {
+    background: rgba(0,0,0,.7);
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 105%;
+    z-index: 999999990;
+} 
+.qncpsPage a {
+	text-decoration: none;
+	box-shadow: none;
+    border: none;
+	font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+}
+.qncpsContent {
+    width: 100%;    
+    /*border-width: 2px;
+    border-style: solid;
+    border-color: #000; */   
+    margin: 1.5vh 0;     
+    background-color:#fff; 
+}
+.IndivNCPSSpecial.qncpsContent {
+	width: 32.33%;
+    margin: 0 .5% 1% .5%;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 280px;    
+    outline: 2px solid #000;
+}
+
+.IndivNCPSSingleSpecial.qncpsContent {
+	width: 52.33%;
+    margin: 0 .5% 1% .5%;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 280px;    
+    outline: 2px solid #000;
+}
+
+html[data-btype *= 'Edge'] .IndivNCPSSpecial.qncpsContent,
+html[data-btype *= 'Edge'] .IndivNCPSSingleSpecial.qncpsContent,
+html[data-btype *= 'Firefox'] .IndivNCPSSpecial.qncpsContent,
+html[data-btype *= 'Firefox'] .IndivNCPSSingleSpecial.qncpsConten {
+	margin: 0 .5% 12px .5%;
+}
+
+.qncpsContent a {
+	text-decoration: none;
+	box-shadow: none;
+    border: none;
+}
+.qncpsContent a:hover {
+    text-decoration: none;
+}
+.qncpsContent div {
+    box-sizing: border-box;
+}
+.ncps_img {
+	position: relative;
+}
+html[data-btype *= 'rv:11.0'] .ncps_img,
+html[data-btype *= 'rv:11.0'] .qsNCPSTitleLink {
+	flex-shrink: 0;
+}
+.ncps_img img{
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+}
+.ncps_img span {
+	font-size: 1vw; 
+	font-size: 16px;   
+    position: relative;
+    margin-top:1.8%;
+    display: block;
+    padding: 0%;
+    color:#fff;
+    background-color: rgba(59, 59, 59, .6);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.qncpsContentBody,
+.qncpsInnerContent,
+.qncpsBottomHalf,
+.qncpsBottomMarqueeLinks,
+.qncpsBottomWrapperLinks {
+	display: flex;
+	display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: column nowrap;    
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    height: 100%;
+}
+.qncpsInnerContent {	
+	padding: 0;
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+}
+.qncpstitle_coupon {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    padding: 5%;
+    color: #000;
+}
+h3.ncps_coupon_title {
+    font-size: 18px !important;
+    margin: 0 !important;
+    line-height: 1.1 !important;
+}
+.ncps_coupon_top_title {
+    font-family: 'Antenna-Bold', 'Open Sans', Helvetica !important;
+}
+.qncpstitle_wrap {
+    width: 75%;
+}
+h3.ncps_coupon_title {
+	width: 100%;
+}
+.ncps_coupon_price {
+    width: 25%;
+}
+.ncs_top_trim {
+    font-weight: 300;
+}
+.qncps_bold {
+	font-weight: 900;
+	font-family: 'Antenna-Bold', 'Open Sans', Helvetica !important;
+}
+.qncps_coupon_price_wrapper {
+    text-align: right;
+    /*line-height: 1.4;*/
+    font-size: 18px;
+}
+
+.qncps_coupon_exDate_wrapper,.qncps_coupon_noPrice_wrapper {
+    /*text-align: right;
+    line-height: 1.4;*/
+    font-size: 18px;
+}
+
+.qncps_coupon_exDate_text_value {
+    color: #ca2a2a;
+}
+
+.qncpsLongTextContainer {
+    background-color: #3b3b3b;
+    color: #fff;
+    padding: 2%;
+    font-size: 16px;
+}
+html[data-btype *= 'rv:11.0'] .qncpsLongTextContainer {
+	flex-shrink: 0;
+}
+html[data-btype *= 'Firefox'] .qncpsLongTextContainer,
+html[data-btype *= 'Edge'] .qncpsLongTextContainer {
+	padding: 8px;
+}
+.qncpsDiclaimerContainer {
+    width: 100%;
+    text-align: center;
+    padding: 4.8% 0;
+}
+html[data-btype *= 'Firefox'] .qncpsDiclaimerContainer,
+html[data-btype *= 'Edge'] .qncpsDiclaimerContainer,
+html[data-btype *= 'rv:11.0'] .qncpsDiclaimerContainer {
+	padding: 13px 0;
+}
+
+.qncpsCouponAreaContainer {
+    width: 100%;
+    font-size: 15px; 
+    text-align: left;
+    line-height: 1.5;
+    padding: 4.8% 0;
+}
+html[data-btype *= 'Firefox'] .qncpsCouponAreaContainer,
+html[data-btype *= 'Edge'] .qncpsCouponAreaContainer,
+html[data-btype *= 'rv:11.0'] .qncpsCouponAreaContainer {
+    padding: 13px 0;
+}
+
+
+.qncpsLeftImgContainer,
+.qncpsImgValWrap,
+.qncpsexDate,
+.ncpsnoPrice,
+.qncpsImgValOuterWrap {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: column nowrap;    
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.qncpsLeftImgContainer {
+    text-align: center;
+    width: 30%;
+    line-height: 1.5;
+}
+
+.qncpsImgVals {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    width: 70%;
+}
+.qncpsImgValWrap {
+    text-align: center;
+}
+.qncpsImgValOuterWrap {
+    width: 50%;
+    margin: 2% 0;
+}
+html[data-btype *= 'rv:11.0'] .qncpsImgValOuterWrap {
+	margin: 2px 0;
+}
+.qncpsImgWrap {
+	width: 55%;
+}
+.qncpsImgPush {
+	width: 45%;
+}
+.qncpsImgValWrapTop {
+	line-height: 1;
+}
+
+.qncpsImgValWrapBottom {
+    font-size: 10px;
+    line-height: 1;
+}
+
+.ncps_expiration_date_wrap,.ncps_no_price_wrap {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;    
+    justify-content: center;
+    -webkit-justify-content: center;
+    padding: 2%;
+    margin-top: 2%;
+}
+html[data-btype *= 'Firefox'] .ncps_expiration_date_wrap .ncps_no_price_wrap {
+	margin-top: 10px;
+}
+html[data-btype *= 'Edge'] .ncps_expiration_date_wrap .ncps_no_price_wrap {
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.ncsleaseInnerWrapper,
+.qncpsLongTextContainerInner,
+.qncpsImgVals {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+}
+
+.ncps_no_price_wrap .ncpsNoPrice,
+.ncps_expiration_date_wrap .qncpsExDate {    
+    color: #333;
+    width: 33%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+}
+.qMarquee {
+	position: relative;
+	height: 25px;
+    overflow: hidden;
+    width: 100%;    
+    margin: 1% 0;
+}
+html[data-btype *= 'Firefox'] .qMarquee {
+	margin: 5px 0;
+}
+.qMarqueeFadeL {
+	background-image: -moz-linear-gradient(left, rgba(255,255,255,1), rgba(255,255,255,0));    
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: -o-linear-gradient(left, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: linear-gradient(to right, rgba(255,255,255,1),rgba(255,255,255,0));
+    background-repeat: repeat-x;
+    height: 20px;
+    width: 8%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 2;	
+}
+.qMarqueeFadeR {
+	background-image: -moz-linear-gradient(right, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: -webkit-linear-gradient(right, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: -o-linear-gradient(right, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: linear-gradient(to left, rgba(255,255,255,1),rgba(255,255,255,0));
+    background-repeat: repeat-x;
+    height: 20px;
+    width: 8%;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index: 2;	
+}
+.qMarqueespan {	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	top: 0;
+	line-height: 1.5;
+	text-align: left;	
+	-moz-transform:translateX(100%);
+	-webkit-transform:translateX(100%);	
+	transform:translateX(100%);
+	-moz-animation: ncsmarquee 12s linear infinite;
+	-webkit-animation: ncsmarquee 12s linear infinite;
+	animation: ncsmarquee 12s linear infinite;
+	z-index: 1;
+	white-space: nowrap;
+}
+/* Move it (define the animation) */
+@-moz-keyframes ncsmarquee {
+	0%   { -moz-transform: translateX(100%); }
+	100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes ncsmarquee {
+	0%   { -webkit-transform: translateX(100%); }
+	100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes ncsmarquee {
+	0%   { 
+		-moz-transform: translateX(100%); /* Firefox bug fix */
+		-webkit-transform: translateX(100%); /* Firefox bug fix */
+		transform: translateX(100%); 		
+	}
+	100% { 
+		-moz-transform: translateX(-100%); /* Firefox bug fix */
+		-webkit-transform: translateX(-100%); /* Firefox bug fix */
+		transform: translateX(-100%); 
+	}
+}
+.qncpsThirtyThree {
+	width: 33%;
+}
+
+.ncpsNoPrice,
+.qncpsExDate table {
+    width: 100%;
+    font-size: .7vw;
+    font-size: 10px !important;
+    background: #ffffff;
+    align-self: center;
+    -webkit-align-self: center;
+    font-weight: 900;
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+    margin: 0 !important; 
+    line-height: 1.5 !important;
+    color: #333 !important; 
+    table-layout: fixed; 
+    border-collapse: collapse;
+    border-spacing: 0; 
+    border: none !important; 
+    vertical-align: baseline;
+}
+html[data-btype *= 'Edge'] .qncpsExDate .ncpsNoPrice table,
+html[data-btype *= 'rv:11.0'] .qncpsExDate .ncpsNoPrice table {
+	font-size: 9.5px !important;
+}
+html[data-btype *= 'Macintosh'] .qncpsExDate .ncpsNoPrice table,
+html[data-btype *= 'iPad'] .qncpsExDate .ncpsNoPrice table {
+	font-size: 9px !important;
+}
+.qncpsExDate,.ncpsNoPrice table td {
+	font-weight: 900;
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+    padding: 0 2%;
+    border: 0;
+    margin: 0;    
+    word-wrap: break-word;   
+    hyphens: none;                     
+}
+.qncpsExDate,.ncpsNoPrice table tr {
+	border: 0;
+    margin: 0;
+}
+.salePricing table tr:nth-child(odd), 
+.ncps_expiration_date_wrap,.ncps_no_price_wrap table tr:nth-child(odd),
+.qncpsExDate,.ncpsNoPrice table tr:nth-child(odd) {
+    background: #ffffff;
+}
+.ncps_expiration_date_wrap,.ncps_no_price_wrap table td:nth-child(even),
+.qncpsExDate,.ncpsNoPrice table td:nth-child(even) {
+	text-align:right;
+}
+.qncps_coupon_date_value,
+.qncps_coupon_price_value {
+    font-size: 25px;
+}
+span.ncpsSupSign {
+    font-size: 16px;
+    line-height: 1.6;
+    vertical-align: top; 
+}
+
+span.ncpsNumber {
+    font-size: 40px; 
+    font-weight: 700;
+}
+
+
+.qncpsexDate,.ncpsnoPrice{
+	line-height: 1.3;	
+	text-align: center; 
+	font-size: 18px; 
+}
+
+.qncpsBottomMarqueeLinks {
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+.qncpsBottomWrapperLinks {
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+}
+.qncpsCTAs {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    padding: 2%;
+    font-size: 12px;
+    /*text-transform: uppercase;*/
+}
+html[data-btype *= 'Edge'] .qncpsCTAs {
+	padding-bottom: 10px;
+}
+.qncpsCTAs a {
+    display: table;
+    padding: 4%;
+    font-size: 12px;
+}
+html[data-btype *= 'Firefox'] .qncpsCTAs {
+	padding: 12px 10px 10px 10px;
+}
+.qncpsCTAs a:hover {
+    cursor: pointer;
+}
+.qncpsScheduleService, 
+.qncpsContactUs {
+	color: #fff !important;
+    background-color: #3b3b3b;
+    padding: 4% 0;
+    width: 29%;
+    margin: 0 1% 0 0;
+    text-align: center;
+}
+.qncpsCTAs .qncpsScheduleService, 
+.qncpsCTAs .qncpsContactUs {
+	width: 32.66%;
+}
+html[data-btype*='Edge'] .qncpsCTAs .qncpsScheduleService, 
+html[data-btype*='Edge'] .qncpsCTAs .qncpsContactUs, 
+html[data-btype*='rv:11.0'] .qncpsCTAs .qncpsScheduleService, 
+html[data-btype*='rv:11.0'] .qncpsCTAs .qncpsContactUs,
+html[data-btype*='Macintosh'] .qncpsCTAs .qncpsScheduleService, 
+html[data-btype*='Macintosh'] .qncpsCTAs .qncpsContactUs,
+html[data-btype*='iPad'] .qncpsCTAs .qncpsScheduleService, 
+html[data-btype*='iPad'] .qncpsCTAs .qncpsContactUs,
+html[data-btype*='iPhone'] .qncpsCTAs .qncpsScheduleService, 
+html[data-btype*='iPhone'] .qncpsCTAs .qncpsContactUs {
+	width: 32.5%;
+}
+.qncpsScheduleService:hover,
+.qncpsContactUs:hover {
+    background-color: #565353;
+}
+.qncpsPrintInfo {
+	color: #fff !important;
+    padding: 3% 0;
+    text-align: center;
+    border-radius: 4px;
+    width: 39%;
+}
+
+.ncps_btn_color {
+    background-color: #0c9d1a;
+}
+
+
+.qncpsCTAs .qncpsPrintInfo {
+	width: 32.66%;
+	padding: 4% 0;
+}
+html[data-btype*='rv:11.0'] .qncpsCTAs a,
+html[data-btype*='rv:11.0'] .qncpsCTAs .qncpsPrintInfo {
+	padding: 4% 0;	
+}
+html[data-btype*='Edge'] .qncpsCTAs .qncpsPrintInfo, 
+html[data-btype*='rv:11.0'] .qncpsCTAs .qncpsPrintInfo,
+html[data-btype*='Macintosh'] .qncpsCTAs .qncpsPrintInfo,
+html[data-btype*='iPad'] .qncpsCTAs .qncpsPrintInfo,
+html[data-btype*='iPhone'] .qncpsCTAs .qncpsPrintInfo {
+	width: 32.5%;
+}
+
+.disclosure {
+    padding-top: 15px;
+    line-height: 1;
+    font-size: 10px;
+    color: #bcbcbc;
+    text-align: justify;
+}
+
+/*--------------------------------------------------------------
+# Responsive NCPS Specials Styling
+--------------------------------------------------------------*/
+@media(max-width:1350px) {
+	h3.ncps_coupon_title {
+		font-size: 1.4vw !important;
+	}
+	.qncps_coupon_price_wrapper,
+    .qncps_coupon_exDate_wrapper,
+    .qncps_coupon_noPrice_wrapper {	   
+	    font-size: 1.3vw;
+	}	
+	
+	.qncpsImgValWrapBottom {
+		font-size: .8vw;
+	}
+	
+	.qncpsLongTextContainer {
+		font-size: 1.2vw;
+	}
+	
+	.qncpsLongTextContainer {
+		padding: 1%;
+	}
+	.qncpsCTAs a {
+		font-size: 1vw;
+	}
+	.qncpsExDate, .ncpsNoPricetable {
+		font-size: .8vw !important;
+	}
+	html[data-btype *= 'Edge'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'rv:11.0'] .qncpsExDate .ncpsNoPrice table {
+		font-size: .75vw !important;
+	}
+	html[data-btype *= 'Macintosh'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'iPad'] .qncpsExDate .ncpsNoPrice table {
+		font-size: .7vw !important;
+	}
+	 
+	.qncpsexDate, .ncpsnoPrice {
+		font-size: 1.4vw;
+	}
+	.qncps_coupon_date_value, 
+	.qncps_coupon_price_value {
+		font-size: 1.9vw;
+	}
+	span.ncpsSupSign {
+		font-size: 1.2vw;
+	}
+	.qncpsDiclaimerContainer {
+		font-size: 1.35vw;
+	}
+
+    .qncpsCouponAreaContainer{
+        font-size: 1.35vw;
+    }	
+}
+@media(max-width: 1200px) {
+	.qMarquee {
+	    font-size: 1.3vw;
+	}
+}
+@media(max-width: 966px) {
+	.IndivNCPSSpecial.qncpsContent {
+		width: 48%;
+		margin: 0 1% 2% 1%;
+	}
+	html[data-btype *= 'Edge'] .IndivNCPSSpecial.qncpsContent,
+	html[data-btype *= 'Firefox'] .IndivNCPSSpecial.qncpsContent {
+		margin: 0 1% 18px 1%;
+	}
+	h3.ncps_coupon_title {
+		font-size: 2.2vw !important;
+	}
+	.qncps_coupon_price_wrapper,
+    .qncps_coupon_exDate_wrapper,
+    .qncps_coupon_noPrice_wrapper {
+		font-size: 3vw;
+	}
+	.qncpsLongTextContainer {
+		padding: 1%;
+	}
+	.qncpsLeftImgContainer,
+	span.ncpsSupSign,
+	.qMarquee {
+	    font-size: 1.7vw;
+	}
+	.qncpsLeftImgContainer {
+		line-height: 1.3;
+	}
+	
+	.qncpsImgValWrapBottom {
+		font-size: 1.1vw;
+	}
+	.qncpsDiclaimerContainer {
+	    font-size: 1.9vw;
+	    padding: 4.2% 0;
+	}
+
+    .qncpsCouponAreaContainer{
+        font-size: 1.9vw;
+        padding: 4.2% 0;
+    }
+
+	.qncpsexDate,.ncpsnoPrice {
+		font-size: 1.9vw;
+	}
+	.qncps_coupon_date_value, 
+	.qncps_coupon_price_value {
+		font-size: 2.6vw;
+	}
+	.qncpsExDate,.ncpsNoPrice table {
+		font-size: 1.2vw !important;
+	}
+	html[data-btype *= 'Firefox'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'Edge'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'rv:11.0'] .qncpsExDate .ncpsNoPrice table {
+		font-size: 1.1vw !important;
+	}		
+	html[data-btype *= 'Macintosh'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'iPad'] .qncpsExDate .ncpsNoPrice table {
+		font-size: 1.05vw !important;
+	}
+	.qncpsCTAs a {
+		font-size: 1.4vw;
+	}
+}
+@media(max-width: 800px) {
+	.qncpsImgValWrapBottom {
+	    font-size: 1.3vw;
+	}
+	.qMarquee {
+	    font-size: 1.8vw;
+	}
+	.qncpsExDate table,
+	html[data-btype *= 'Firefox'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'Edge'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'rv:11.0'] .qncpsExDate .ncpsNoPrice table {
+	    font-size: 1.15vw !important;
+	}
+	html[data-btype *= 'Macintosh'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'iPad'] .qncpsExDate .ncpsNoPrice table {
+	    font-size: 1.1vw !important;
+	}
+}
+@media(max-width:768px) {
+	.ncsDiscWrapperInner,
+	.ncsDiscClose {
+		font-size: 12px;
+	}
+	.ncsDiscWrapperInner {
+		min-width: 400px;
+	}
+	.ncsDiscClose {
+		line-height: 12px;
+	}
+	.ncsDiscWrapperInner h5 {
+	    font-size: 18px !important;
+	    margin: 18px 0 !important;
+	}
+}
+@media(max-width: 630px) {
+	.IndivNCPSSpecial.qncpsContent {
+		width: 98%;
+		margin: 0 1% 15px 1%;
+	}
+	html[data-btype *= 'iPhone'] .qncpsContentBody,
+	html[data-btype *= 'iPhone'] .qncpsInnerContent,
+	html[data-btype *= 'iPhone'] .qncpsBottomHalf,
+	html[data-btype *= 'iPhone'] .qncpsBottomMarqueeLinks,
+	html[data-btype *= 'iPhone'] .qncpsBottomWrapperLinks {
+		height: auto;
+	}
+	html[data-btype *= 'iPhone'] .IndivNCPSSpecial.qncpsContent {
+		outline: none;
+		border: 2px solid #000;
+	}
+	html[data-btype *= 'Edge'] .IndivNCPSSpecial.qncpsContent,
+	html[data-btype *= 'Firefox'] .IndivNCPSSpecial.qncpsContent {
+		margin: 0 1% 15px 1%;
+	}
+	h3.ncps_coupon_title {
+		font-size: 4.2vw !important;
+	}
+	.qncps_coupon_price_wrapper,
+    .qncps_coupon_exDate_wrapper {
+		font-size: 4vw;
+	}
+	
+	.qncpsLeftImgContainer {
+		line-height: 1.2;
+	}
+	.qMarquee {
+		font-size: 3vw;
+		height: 30px;
+	}
+	.qncpsDiclaimerContainer {
+	    font-size: 4vw;
+	}
+
+    .qncpsCouponAreaContainer {
+        font-size: 4vw;
+    }
+
+	.qncpsImgValWrapBottom {
+	    font-size: 2vw;	    
+	}
+	.qncpsExDate,.ncpsNoPrice table,
+	html[data-btype *= 'Firefox'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'Edge'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'rv:11.0'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'Macintosh'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'iPad'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'iPhone'] .qncpsExDate .ncpsNoPrice table {
+		font-size: 2.1vw !important;
+	}
+	 
+	.qncpsexDate,.ncpsnoPrice {
+		font-size: 4vw;
+	}	
+	span.ncpsSupSign {
+	    font-size: 2.9vw;
+	}
+	.qncps_coupon_date_value, 
+	.qncps_coupon_price_value {
+	    font-size: 5vw;
+	}
+	
+	.qncpsCTAs a {
+		font-size: 2.5vw;
+	}	
+}
+@media(max-width: 550px) {
+	.qMarquee {
+		font-size: 3.5vw;		
+	}
+	.qncpsExDate table {
+	    font-size: 2.3vw !important;
+	}
+	html[data-btype *= 'Firefox'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'Edge'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'rv:11.0'] .qncpsExDate .ncpsNoPrice table {
+	    font-size: 2.2vw !important;
+	}
+	html[data-btype *= 'Macintosh'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'iPad'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'iPhone'] .qncpsExDate .ncpsNoPrice table {
+	    font-size: 2.15vw !important;
+	}
+	.qncpsImgValWrapBottom {
+	    font-size: 2.2vw;
+	}
+	.qncpsCTAs a {
+		font-size: 2.8vw;
+	}
+}
+@media(max-width: 450px) {	
+	.qMarquee {
+		font-size: 3.8vw;
+		height: 26px;		
+	}
+	.qncpsExDate table {
+	    font-size: 2.35vw !important;
+	}
+	html[data-btype *= 'Firefox'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'Edge'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'rv:11.0'] .qncpsExDate .ncpsNoPrice table,	
+	html[data-btype *= 'Macintosh'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'iPad'] .qncpsExDate .ncpsNoPrice table,
+	html[data-btype *= 'iPhone'] .qncpsExDate .ncpsNoPrice table {
+		font-size: 2.25vw !important;
+	}
+	.IndivNCPSSpecial.qncpsContent {
+		min-width: auto;
+	}
+	.qncpsImgValWrapBottom {
+	    font-size: 2.4vw;
+	}
+	 
+	.qncpsexDate, .ncpsnoPrice {
+	    font-size: 4.5vw;
+	}
+	span.ncpsSupSign {
+	    font-size: 3.4vw;
+	}
+	..qncps_coupon_date_value, .qncps_coupon_price_value {
+	    font-size: 5.5vw;
+	}
+	.qncpsCTAs a {
+	    font-size: 3vw;
+	}
+	.ncsDiscWrapperInner {
+		min-width: 290px;
+		padding: 15px 15px 10px 15px;
+	}
+	.ncsDiscClose {
+		top: 1.5%;
+		right: 2.5%;
+	}
+	.ncsDiscWrapperInner h5 {
+	    font-size: 16px !important;
+	    margin: 18px 0 10px 0 !important;
+	}
+}
+@media(max-width: 450px) and (max-height: 650px) {
+	.ncsDiscWrapperInner {
+	    position: absolute;
+	    transform: translate(-50.09%, 0);
+	    -webkit-transform: translate(-50.09%, 0);
+	    margin-bottom: 20px;
+	}
+}
+@media(max-height: 650px) {
+	.ncsDiscWrapperInner {
+	    position: absolute;
+	    transform: translate(-50.09%, 0);
+	    -webkit-transform: translate(-50.09%, 0);
+	    margin-bottom: 20px;
+	}
+}
+@media(max-width: 400px) {
+	.qncpsExDate,.ncpsNoPrice table,
+	html[data-btype *= 'Firefox'] .qncpsExDate,.ncpsNoPrice table,
+	html[data-btype *= 'Edge'] .qncpsExDate,.ncpsNoPrice table,
+	html[data-btype *= 'rv:11.0'] .qncpsExDate,.ncpsNoPrice table {
+	    font-size: 2.35vw !important;
+	}
+	
+}

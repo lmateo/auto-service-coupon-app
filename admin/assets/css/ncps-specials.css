@@ -1,0 +1,717 @@
+/*============================================================                                     
+
+
+Quirk Service Coupon Style Sheet
+
+==============================================================*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Imported Fonts
+# Service Coupon Specials Styling
+# Responsive Service Coupon Specials Styling
+--------------------------------------------------------------*/
+
+.qsNCPSPage {
+    /*display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;*/
+    display: block;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+    font-weight:300;
+    /*font-size:1vw;*/
+    font-size: 16px;
+    line-height:1.5;
+    letter-spacing: -.5px;
+    width: 100%;
+}
+.NCPS {
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    /*align-items: flex-start;
+    -webkit-align-items: flex-start;*/
+	margin: auto;
+	max-width: 1260px;
+	justify-content: center;
+}
+.qsNCPSPage div {
+	font-family: 'Antenna-Light', 'Open Sans', Helvetica;
+}
+#q_overlay {
+    background: rgba(0,0,0,.5);
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1030;
+} 
+#q_overlay_disc {
+    background: rgba(0,0,0,.7);
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 105%;
+    z-index: 999999990;
+} 
+
+
+.qsNCPSPage a {
+	text-decoration: none;
+	box-shadow: none;
+    border: none;
+	font-family: 'Antenna-Light', 'Open Sans', Helvetica !important;
+}
+.qsNCPSContent {
+    width: 100%;    
+    /*border-width: 2px;
+    border-style: solid;
+    border-color: #000; */   
+    margin: 1.5vh 0;     
+    background-color:#fff; 
+}
+.IndivSpecial.qsNCPSContent {
+	width: 32.33%;
+    margin: 0 .5% 1% .5%;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 280px;    
+    outline: 2px dashed #bcbcbc;
+     -moz-outline-radius: 3px;
+}
+html[data-btype *= 'Edge'] .IndivSpecial.qszNCPSContent,
+html[data-btype *= 'Firefox'] .IndivSpecial.qsNCPSContent {
+	margin: 0 .5% 12px .5%;
+}
+
+.IndivSpecialSingle.qsNCPSContent {
+    width: 65%;
+    margin: 0 .5% 1% 20%;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 280px;
+    outline: 2px dashed #bcbcbc;
+    -moz-outline-radius: 3px;
+    
+}
+    
+.qsNCPSContent a {
+	text-decoration: none;
+	box-shadow: none;
+    border: none;
+}
+.qsNCPSContent a:hover {
+    text-decoration: none;
+}
+.qsNCPSContent div {
+    box-sizing: border-box;
+}
+
+.qncpsrow {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.qncpswrapper {
+    max-width: 627px;
+    width: 90%;
+    margin: auto;
+}
+.ncpspanel {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.ncpsparbdy {
+    width: 75%;
+    float: left;
+}
+.ncps_coupon_info_wrap ul, ol {    
+    margin: 0 0 10px 0;
+    list-style: disc;
+}
+.coupon {
+    /*border: 2px dashed #bcbcbc !important;
+    border-radius: 3px !important;*/
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", 
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+}
+/*.coupon #head {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    min-height: 56px;
+}*/
+.ncps_title_left,
+.ncps_title_right {
+    width: 50%;
+    align-self: center;
+    -webkit-align-self: center;
+}
+.coupon #footer {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#title .visible-xs {
+    font-size: 12px;
+}
+.coupon #title img {
+    float: right;
+    /*font-size: 30px;
+    height: 40px;
+    margin-top: 1px;*/
+    height: auto;
+    max-width: 100%;
+}
+.ncps_cost_right {
+    text-align: right;
+    line-height: 1;
+    width: 25%;
+    float: left;
+}
+.ncps_coupon_info_wrap{
+    padding: 10px 0;
+}
+.coupon #title span {
+    float: left;
+    margin-top: 5px;
+    font-weight: 700;
+    /*color: whitesmoke;*/
+    text-transform: uppercase;
+}
+.coupon-img {
+    width: 94%;
+    margin-bottom: 15px;
+    padding: 0 10px 10px 10px;
+}
+
+.ncpsimg-rounded {
+    border-radius: 6px;
+}
+
+.items {
+    margin: 15px 0;
+}
+.usd, 
+.cents {
+    font-size: 20px;
+    vertical-align: top !important;
+    line-height: 1.5;
+}
+
+.number {
+    font-size: 40px;
+    font-weight: 700;
+}
+sup {
+    top: -15px;
+}
+#business-info ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+#business-info ul li { 
+    display: inline;
+    text-align: center;
+}
+#business-info ul li span {
+    text-decoration: none;
+    padding: .2em 1em;
+}
+#business-info ul li span i {
+    padding-right: 5px;
+}
+.disclosure {
+    padding-top: 15px;
+    line-height: 1;
+    font-size: 11px;
+    color: #bcbcbc;
+    text-align: justify;
+}
+.disclosure p {
+    margin: 0 0 10px;
+}
+.coupon-code {
+    color: #333333;
+    font-size: 11px;
+}
+
+.exp {
+    font-size: 14px;
+    color: #f34235; 
+}
+
+.ncpsbtn {
+    display: inline-block !important;
+    padding: 6px 12px !important;
+    margin-bottom: 0 !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    line-height: 1.428571429 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    background-image: none !important;
+    border: 1px solid transparent;!important;
+    border-radius: 4px !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    -o-user-select: none !important;
+    user-select: none !important;
+}
+
+div#business-info,
+.ncps_title_wrap,
+.ncps_footer_flex {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+}
+.ncps_footer_flex {
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+}
+
+.ncps_footer_flex_sharebtn {
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+}
+
+.pull-right-share {
+    float: right !important;
+}
+
+.ncps_storename, 
+.ncps_store_phone,
+.ncps_store_address {
+    padding: 1% 0;
+    width: 33.33%;
+    font-size: 12px;
+    line-height: 1;
+}
+
+/*.ncps_storename, .ncps_store_phone, .ncps_store_address {
+    padding: 1% 0;
+    width: 25.33%;
+    font-size: .8vw;
+    line-height: 1;
+    white-space: nowrap;
+}
+*/
+
+
+.ncps_store_name_wrap,
+.ncps_store_phone_wrap {
+    width: 85%;
+    border-right: 1px solid #000;
+    margin: 0 2%;    
+}
+i.fa.fa-phone,
+i.fa.fa-map-marker {
+    padding: 0 3px 0 0;
+}
+.ncps_storename,
+.ncps_store_phone {
+    /* white-space: nowrap;*/
+}
+.print,
+.contactUs,
+.scheduleService{
+    font-size: 14px;
+    float: left;
+}
+.ncpspanel-danger > .ncpspanel-heading {
+    color: #333 !important;
+    background-color: #f2dede;
+    /*border-color: #ebccd1;*/
+}
+
+.ncpspanel-warning > .ncpspanel-heading {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    /*border-color: #faebcc;*/
+}
+
+.ncpspanel-primary > .ncpspanel-heading {
+    color: #ffffff;
+    background-color: #428bca;
+    /*border-color: #428bca;*/
+}
+
+.ncpspanel-success > .ncpspanel-heading {
+    color: #3c763d;
+    background-color: #dff0d8;
+   /* border-color: #d6e9c6;*/
+}
+
+.ncpspanel-info > .ncpspanel-heading {
+    color: #31708f;
+    background-color: #d9edf7;
+    /*border-color: #bce8f1;*/
+}
+
+.ncpspanel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.ncpspanel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.ncpspanel-body {
+    padding: 15px;
+}
+
+.ncpspanel-single-body {
+    padding: 40px;
+}
+
+
+.ncpspanel-footer {   
+    margin-bottom: 15px !important;   
+    border-top: none !important; 
+    border-bottom-right-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+    padding: 10px 15px;
+    
+       
+}
+.classic-pt .pt-list li:nth-child(2n) {
+    /* background-color: #2c9c86; */
+}
+ 
+.classic-pt .pt-list li {
+    list-style: none;
+    margin: 0;
+    padding: 15px 15px 10px;
+} 
+ 
+  
+.printSection {
+    display: none;
+    border: 1px dashed #000;
+    padding: 20px 25px;
+}
+.fancybox-inner>div {
+    max-width: 680px;
+}
+element.style {
+    width: 710px;
+    height: auto;
+    position: fixed;
+    top: 174px !important;
+    left: 390px;
+    opacity: 1;
+    overflow: visible;
+}
+
+.ncpswell {
+    min-height: 20px !important;
+    padding: 9px !important;
+    margin-bottom: 20px;
+    background-color: white !important;
+    border: none !important; 
+    border-radius: 4px !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.10) !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.10) !important;
+}
+.ncpsclearfix:before, 
+.ncpsclearfix:after {
+    display: table;
+    content: " ";
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ncpsclearfix:after {
+    clear: both;
+}
+.ncpsbtn-warning {
+    color: #ffffff !important;
+    background-color: #f0ad4e !important;
+    border-color: #eea236 !important;
+}
+.ncpsbtn-warning:hover, 
+.ncpsbtn-warning:focus, 
+.ncpsbtn-warning:active {   
+    background-color: #ed9c28 !important;
+    border-color: #d58512 !important;
+}
+.ncpsbtn-primary {
+    color: #ffffff !important;
+    background-color: #428bca !important;
+    border-color: #357ebd !important;
+}
+.ncpsbtn-primary:hover, 
+.ncpsbtn-primary:focus, 
+.ncpsbtn-primary:active {   
+    background-color: #3276b1 !important;
+    border-color: #285e8e !important;
+}
+.ncpsbtn-info {
+    color: #ffffff !important;
+    background-color: #5bc0de !important;
+    border-color: #46b8da !important;
+}
+.ncpsbtn-info:hover, 
+.ncpsbtn-info:focus, 
+.ncpsbtn-info:active {
+    color: #ffffff;
+    background-color: #39b3d7 !important;
+    border-color: #269abc !important;
+}
+.ncpsbtn-success {
+    color: #ffffff !important;
+    background-color: #5cb85c !important;
+    border-color: #4cae4c !important;
+}
+.ncpsbtn-success:hover, 
+.ncpsbtn-success:focus, 
+.ncpsbtn-success:active {   
+    background-color: #47a447 !important;
+    border-color: #398439 !important;
+}
+.ncpsbtn-danger {
+    color: #ffffff !important;
+    background-color: #d9534f !important;
+    border-color: #d43f3a !important;
+}
+.ncpsbtn-danger:hover, 
+.ncpsbtn-danger:focus, 
+.ncpsbtn-danger:active {
+    background-color: #d2322d !important;
+    border-color: #ac2925 !important;
+}
+.ncpsmodal-header {
+    min-height: 16.428571429px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.ncpsclose {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000000;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    margin-top: -8px;
+}
+.ncpsmodal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    display: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.ncpsoverlaycloser {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.ncpsmodal-dialog {
+    margin-top: 0;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);  
+    width: 80%;
+    max-width: 627px;        
+}
+.ncpsmodal-content {
+    position: relative;
+    background-color: #ffffff;   
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    outline: none;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+}
+.ncpsmodal-body {
+    position: relative;
+    padding: 20px;
+}
+.ncpsmodal-footer {
+    padding: 19px 20px 20px;
+    margin-top: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+#ncpsmodal-backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #000000;
+    opacity: 0.5;
+}
+
+.NoCouponSpecials {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    padding: 5% 0;
+}
+@media(max-width:1199px){ 
+    .ncps_storename, 
+    .ncps_store_phone, 
+    .ncps_store_address{
+        font-size:1.4vw;
+    }
+}
+@media(max-width:900px){
+    .ncpsbtn {
+        font-size: 12px !important;
+    }
+}
+@media screen and (max-width :768px){
+    .ncpspanel-footer {
+        padding: 10px 5px;
+    }   
+} 
+@media(max-width:767px){
+    .ncps_storename, 
+    .ncps_store_phone, 
+    .ncps_store_address{
+        font-size: 1.8vw;
+    }
+    .ncpsparbdy {
+        width: 66.66666666666666%;      
+    }
+    .ncps_cost_right{
+        width: 33.33333333333333%;
+    }
+    .ncpsmodal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    }
+    .ncpsmodal-dialog {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .coupon #title img {
+        max-width: 50%;        
+    } 
+    .ncpspanel-title {
+        font-size: 14px !important;
+    }  
+    .ncpsbtn {
+        font-size: 10px !important;
+    }
+}
+@media(max-width:450px){
+    .ncps_storename, 
+    .ncps_store_phone, 
+    .ncps_store_address{
+        font-size:2.3vw;
+    }
+    .number {
+        font-size: 30px;        
+    }
+    .usd, 
+    .cents {
+        font-size: 15px;    
+    }
+    .ncpswell {
+        padding: 9px 2px !important;
+    }
+    .ncps_store_name_wrap, .ncps_store_phone_wrap {
+        width: 90%;    
+        margin: 0 1% 0 0;
+    }
+} 
+@media screen and (max-width: 400px) {
+    .coupon #title img {
+        max-width: 45%;        
+    } 
+    .ncpspanel-title {
+        font-size: 12px !important;
+    }  
+    .exp {
+        font-size: 12px;    
+    }
+    .ncps_coupon_info_wrap {    
+        font-size: 12px;
+    }   
+    .ncpsbtn {
+        font-size: 8px !important;
+    }
+} 
+/*-------------------------------------------------------------*/
+
+
+/*------------------Print Coupon----------------------*/
+.fancybox-lock .fancybox-overlay {
+    z-index: 9999999;
+}
+@media screen {
+  #printSection {
+      display: none;
+  }
+}
+
+@media print {
+  body * {
+    visibility:visible;
+  }
+  #printSection, #printSection * {
+    visibility:visible;
+  }
+  #printSection {
+    position:absolute;
+    left:0;
+    top:0;
+  }
+}
+/*

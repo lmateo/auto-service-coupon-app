@@ -1,0 +1,1535 @@
+[28-Jan-2016 18:37:17 UTC] PHP Fatal error:  Class 'ncsApi' not found in /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php on line 10
+[28-Jan-2016 18:37:34 UTC] PHP Fatal error:  Class 'quirk' not found in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 50
+[28-Jan-2016 18:42:22 UTC] PHP Warning:  require_once(/srv/www/lib/class.quirk.php): failed to open stream: No such file or directory in /home/quirkspecials/public_html/ncs/lib/class.customer.php on line 6
+[28-Jan-2016 18:42:22 UTC] PHP Fatal error:  require_once(): Failed opening required '/srv/www/lib/class.quirk.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/quirkspecials/public_html/ncs/lib/class.customer.php on line 6
+[28-Jan-2016 18:43:54 UTC] PHP Warning:  require_once(/srv/www/lib/class.quirk.php): failed to open stream: No such file or directory in /home/quirkspecials/public_html/ncs/lib/class.customer.php on line 6
+[28-Jan-2016 18:43:54 UTC] PHP Fatal error:  require_once(): Failed opening required '/srv/www/lib/class.quirk.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/quirkspecials/public_html/ncs/lib/class.customer.php on line 6
+[28-Jan-2016 18:45:06 UTC] PHP Warning:  mysql_connect(): Access denied for user 'phpweb'@'localhost' (using password: YES) in /home/quirkspecials/public_html/ncs/lib/class.quirk.php on line 79
+[28-Jan-2016 18:57:55 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/quirkspecials/public_html/ncs/lib/inc.functions.makes_models.inc.php on line 82
+[28-Jan-2016 18:57:57 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/quirkspecials/public_html/ncs/lib/inc.functions.makes_models.inc.php on line 82
+[28-Jan-2016 19:02:21 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/quirkspecials/public_html/ncs/lib/inc.functions.makes_models.inc.php on line 82
+[28-Jan-2016 19:02:53 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/quirkspecials/public_html/ncs/lib/inc.functions.makes_models.inc.php on line 125
+[28-Jan-2016 19:03:24 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/quirkspecials/public_html/ncs/lib/inc.functions.makes_models.inc.php on line 82
+[28-Jan-2016 19:06:15 UTC] PHP Warning:  mysql_connect(): Access denied for user 'phpweb'@'localhost' (using password: YES) in /home/quirkspecials/public_html/ncs/lib/class.quirk.php on line 79
+[28-Jan-2016 19:08:34 UTC] PHP Fatal error:  Call to undefined function fix() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 306
+[28-Jan-2016 19:09:14 UTC] PHP Fatal error:  Call to undefined function get_data() in /home/quirkspecials/public_html/ncs/lib/inc.functions.makes_models.inc.php on line 206
+[28-Jan-2016 19:35:04 UTC] PHP Warning:  require_once(inc.php): failed to open stream: No such file or directory in /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php on line 6
+[28-Jan-2016 19:35:04 UTC] PHP Fatal error:  require_once(): Failed opening required 'inc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php on line 6
+[28-Jan-2016 19:35:07 UTC] PHP Warning:  require_once(inc.php): failed to open stream: No such file or directory in /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php on line 6
+[28-Jan-2016 19:35:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'inc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php on line 6
+[28-Jan-2016 20:12:39 UTC] PHP Warning:  require_once(/include/inc.php): failed to open stream: No such file or directory in /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php on line 6
+[28-Jan-2016 20:12:39 UTC] PHP Fatal error:  require_once(): Failed opening required '/include/inc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/quirkspecials/public_html/ncs/api/get-ncs-v2.php on line 6
+[28-Jan-2016 20:16:56 UTC] PHP Fatal error:  Call to undefined method ncsApi::_run_query() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 274
+[28-Jan-2016 20:29:21 UTC] PHP Fatal error:  Call to undefined function fix() in /home/quirkspecials/public_html/ncs/api/class.ncsApi.php on line 316
+[28-Jan-2016 20:31:24 UTC] PHP Fatal error:  Call to undefined function get_data() in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 141
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 155
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 35
+[28-Jan-2016 20:32:03 UTC] PHP Warning:  Illegal string offset 'name' in /home/quirkspecials/public_html/ncs/api/include/inc.functions.makes_models.inc.php on line 240
+[08-Nov-2016 08:33:35 America/Los_Angeles] PHP Warning:  mysql_connect(): Access denied for user 'quirkspe_ncps_dev'@'localhost' (using password: YES) in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[08-Nov-2016 08:43:55 America/Los_Angeles] PHP Warning:  mysql_connect(): Access denied for user 'quirkspe_ncps_dev'@'localhost' (using password: YES) in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[08-Nov-2016 09:07:52 America/Los_Angeles] PHP Warning:  mysql_connect(): Access denied for user 'quirkspe_ncps_dev'@'localhost' (using password: YES) in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[08-Nov-2016 10:32:36 America/Los_Angeles] PHP Warning:  mysql_connect(): Access denied for user 'quirkspe_ncps_dev'@'localhost' (using password: YES) in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[09-Nov-2016 05:29:57 America/Los_Angeles] PHP Warning:  mysql_connect(): Access denied for user 'quirkspe_ncps_dev'@'localhost' (using password: YES) in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[09-Nov-2016 05:31:49 America/Los_Angeles] PHP Warning:  mysql_connect(): Access denied for user 'quirkspe_ncps_dev'@'localhost' (using password: YES) in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[09-Nov-2016 05:41:28 America/Los_Angeles] PHP Warning:  mysql_connect(): Access denied for user 'quirkspe_ncps_dev'@'localhost' (using password: YES) in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncpsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 45
+[28-Nov-2016 19:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:27:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:72
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(263): ncpsApi->_run_query('SELECT *, \n\t\t\t\t...')
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(180): ncpsApi->doNcpsBuildSearchQuery()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(135): ncpsApi->doNcpsSearch()
+#3 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#4 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 72
+[28-Nov-2016 19:35:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncpsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 45
+[28-Nov-2016 19:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:51:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:51:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:51:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:51:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:51:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:51:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:51:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:51:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:51:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:51:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:51:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:51:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:51:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 19:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncpsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 45
+[28-Nov-2016 20:06:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[28-Nov-2016 20:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 13:34:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncpsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 45
+[29-Nov-2016 13:53:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncpsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 45
+[29-Nov-2016 17:20:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ncpsApi has a deprecated constructor in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 45
+[29-Nov-2016 20:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[29-Nov-2016 20:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[30-Nov-2016 13:26:51 UTC] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[30-Nov-2016 13:27:01 UTC] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[30-Nov-2016 13:29:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'quirkspe_ncsusers'@'localhost' (using password: YES) in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 73
+[30-Nov-2016 13:30:41 UTC] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:269
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(184): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(139): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 269
+[30-Nov-2016 13:38:34 UTC] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:266
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(181): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(136): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 266
+[30-Nov-2016 13:38:43 UTC] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:266
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(181): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(136): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 266
+[30-Nov-2016 13:39:00 UTC] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:266
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(181): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(136): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 266
+[30-Nov-2016 13:41:15 UTC] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:266
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(181): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(136): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 266
+[30-Nov-2016 13:51:14 UTC] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:266
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(181): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(136): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 266
+[30-Nov-2016 14:13:45 UTC] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:266
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(181): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(136): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 266
+[30-Nov-2016 14:14:33 UTC] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:266
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(181): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(136): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 266
+[30-Nov-2016 14:17:41 UTC] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:266
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(181): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(136): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 266
+[30-Nov-2016 14:17:46 UTC] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:266
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(181): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(136): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 266
+[30-Nov-2016 14:18:01 UTC] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:266
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(181): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(136): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 266
+[30-Nov-2016 14:18:12 UTC] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php:266
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(181): ncpsApi->doNcpsBuildSearchQuery()
+#1 /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php(136): ncpsApi->doNcpsSearch()
+#2 /home/quirkspecials/public_html/ncs/ncpsdev/api/get-ncps-v3.php(12): ncpsApi->handleRequest()
+#3 {main}
+  thrown in /home/quirkspecials/public_html/ncs/ncpsdev/api/class.ncpsApi.php on line 266
+[03-Feb-2017 22:32:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method qinvApi::doNcpsSearch() in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php:136
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/quirkinventory/api/get-qinv-v3.php(12): qinvApi->handleRequest()
+#1 {main}
+  thrown in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php on line 136
+[03-Feb-2017 22:32:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method qinvApi::doNcpsSearch() in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php:136
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/quirkinventory/api/get-qinv-v3.php(12): qinvApi->handleRequest()
+#1 {main}
+  thrown in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php on line 136
+[03-Feb-2017 22:34:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method qinvApi::doNcpsSearch() in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php:136
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/quirkinventory/api/get-qinv-v3.php(12): qinvApi->handleRequest()
+#1 {main}
+  thrown in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php on line 136
+[04-Feb-2017 13:05:58 UTC] PHP Fatal error:  Allowed memory size of 26214400 bytes exhausted (tried to allocate 6292568 bytes) in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php on line 309
+[04-Feb-2017 13:13:48 UTC] PHP Fatal error:  Allowed memory size of 26214400 bytes exhausted (tried to allocate 6292568 bytes) in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php on line 309
+[04-Feb-2017 13:15:49 UTC] PHP Fatal error:  Allowed memory size of 26214400 bytes exhausted (tried to allocate 6292568 bytes) in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php on line 309
+[04-Feb-2017 13:15:55 UTC] PHP Fatal error:  Allowed memory size of 26214400 bytes exhausted (tried to allocate 6292568 bytes) in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php on line 309
+[04-Feb-2017 13:23:09 UTC] PHP Fatal error:  Allowed memory size of 26214400 bytes exhausted (tried to allocate 6292568 bytes) in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php on line 309
+[04-Feb-2017 22:05:37 UTC] PHP Fatal error:  Allowed memory size of 26214400 bytes exhausted (tried to allocate 6294656 bytes) in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php on line 309
+[04-Feb-2017 22:11:00 UTC] PHP Fatal error:  Allowed memory size of 26214400 bytes exhausted (tried to allocate 6294656 bytes) in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php on line 309
+[04-Feb-2017 22:17:16 UTC] PHP Fatal error:  Allowed memory size of 26214400 bytes exhausted (tried to allocate 6294656 bytes) in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php on line 309
+[06-Feb-2017 15:22:03 UTC] PHP Notice:  Undefined variable: dbname in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php on line 70
+[06-Feb-2017 15:39:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method qinvApi::handleRequest() in /home/quirkspecials/public_html/ncs/quirkinventory/api/get-qinv-v3.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/quirkspecials/public_html/ncs/quirkinventory/api/get-qinv-v3.php on line 12
+[06-Feb-2017 15:39:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method qinvApi::handleRequest() in /home/quirkspecials/public_html/ncs/quirkinventory/api/get-qinv-v3.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/quirkspecials/public_html/ncs/quirkinventory/api/get-qinv-v3.php on line 12
+[06-Feb-2017 15:39:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method qinvApi::handleRequest() in /home/quirkspecials/public_html/ncs/quirkinventory/api/get-qinv-v3.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/quirkspecials/public_html/ncs/quirkinventory/api/get-qinv-v3.php on line 12
+[06-Feb-2017 15:42:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method qinvApi::getQinvSearchReponset() in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php:182
+Stack trace:
+#0 /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php(136): qinvApi->doQinvSearch()
+#1 /home/quirkspecials/public_html/ncs/quirkinventory/api/get-qinv-v3.php(12): qinvApi->handleRequest()
+#2 {main}
+  thrown in /home/quirkspecials/public_html/ncs/quirkinventory/api/class.qinvApi.php on line 182
+[22-Jan-2018 16:31:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PHP_API_AUTH' not found in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/api.php:2332
+Stack trace:
+#0 {main}
+  thrown in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/api.php on line 2332
+[22-Jan-2018 18:45:28 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/api.php on line 2522
+[22-Jan-2018 19:50:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function executeCommand() on null in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/api.php:2362
+Stack trace:
+#0 {main}
+  thrown in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/api.php on line 2362
+[22-Jan-2018 19:50:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function executeCommand() on null in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/api.php:2362
+Stack trace:
+#0 {main}
+  thrown in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/api.php on line 2362
+[23-Jan-2018 14:42:14 UTC] PHP Warning:  require(auth.php): failed to open stream: No such file or directory in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/login_token.php on line 4
+[23-Jan-2018 14:42:14 UTC] PHP Fatal error:  require(): Failed opening required 'auth.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/login_token.php on line 4
+[23-Jan-2018 14:42:38 UTC] PHP Warning:  require(auth.php): failed to open stream: No such file or directory in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/login_token.php on line 4
+[23-Jan-2018 14:42:38 UTC] PHP Fatal error:  require(): Failed opening required 'auth.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/login_token.php on line 4
+[23-Jan-2018 15:09:52 UTC] PHP Fatal error:  Uncaught Error: Class 'PHP_API_AUTH' not found in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/api.php:2486
+Stack trace:
+#0 {main}
+  thrown in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/api.php on line 2486

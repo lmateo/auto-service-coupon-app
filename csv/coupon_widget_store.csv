@@ -1,0 +1,17 @@
+csvid,letter,storename,store_id_loc,coupon_widget
+1,c,Quirk Chevrolet,7,1184591
+2,f,Quirk Ford,12,7984591
+3,k,Quirk Kia,13,8578929
+4,m,Quirk Mazda,15,8878923
+5,n,Quirk Nissan,16,4578926
+6,s,Quirk Works Subaru,20,7125487
+7,v,Quirk Volkswagen,18,6121489
+8,p,Quirk Preowned,17,2295481
+9,d,Quirk Chevy NH,8,5125487
+11,j,Quirk Chrysler Jeep,9,9284591
+19,w,Quirk VW Manchester,19,6784591
+20,g,Quirk Buick GMC,6,2994598
+26,e,Quirk Chrysler Dodge Jeep RAM,11,3125581
+29,h,Quirk Kia NH,14,9665784
+34,aa,Test Quirk Store,34,9125484
+36,ct,Quirk Commercial Trucks,25,9565488

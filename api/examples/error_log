@@ -1,0 +1,39 @@
+[23-Jan-2018 15:44:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[23-Jan-2018 15:44:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[23-Jan-2018 15:50:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[23-Jan-2018 15:53:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[23-Jan-2018 16:15:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[23-Jan-2018 16:16:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[25-Jan-2018 17:15:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[25-Jan-2018 17:15:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[25-Jan-2018 18:30:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[25-Jan-2018 18:30:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[25-Jan-2018 19:05:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[25-Jan-2018 19:05:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[25-Jan-2018 19:05:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[26-Jan-2018 16:42:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[26-Jan-2018 16:46:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[26-Jan-2018 16:46:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[26-Jan-2018 16:50:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[26-Jan-2018 16:50:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[26-Jan-2018 16:52:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[26-Jan-2018 16:52:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[26-Jan-2018 16:53:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[26-Jan-2018 16:53:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[26-Jan-2018 16:53:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[26-Jan-2018 16:54:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[26-Jan-2018 18:24:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/php_crud_api_transform.php on line 29
+[29-Jan-2018 17:52:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ncs_api_transform() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/examples/client_auth.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/examples/client_auth.php on line 46
+[30-Jan-2018 14:04:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/ncs_api_transform.php on line 29
+[01-Feb-2018 14:02:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/ncs_api_transform.php on line 29
+[01-Feb-2018 14:02:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/ncs_api_transform.php on line 29
+[01-Feb-2018 14:04:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/ncs_api_transform.php on line 29
+[01-Feb-2018 14:07:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/ncs_api_transform.php on line 29
+[01-Feb-2018 14:08:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/ncs_api_transform.php on line 29
+[01-Feb-2018 14:08:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/ncs_api_transform.php on line 29
+[01-Feb-2018 14:10:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/ncs_api_transform.php on line 29
+[01-Feb-2018 14:10:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/ncs_api_transform.php on line 29
+[01-Feb-2018 14:10:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/quirkspecials/public_html/ncs/quirk-inventory-site-dev/api/lib/ncs_api_transform.php on line 29
